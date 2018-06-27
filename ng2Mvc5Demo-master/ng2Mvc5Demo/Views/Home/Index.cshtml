@@ -7,7 +7,7 @@
 @if(TempData["index"] !=null)
 {
  //   var index = TempData["index"].ToString();
-     // var index = TempData.Peek("index").ToString();
- //  TempData.Keep("index");
+     var index = TempData.Peek("index").ToString();
+  TempData.Keep("index");
   //  <h1>@index</h1>
 }
